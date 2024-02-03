@@ -1,0 +1,108 @@
+
+body {
+    margin: 30px;
+    padding: 20px;
+    background-color: #a3dfd3;
+}
+h2 {
+    color: #9ee7d9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#white{
+    color: #FFFF;
+}
+#inline{
+    display: inline-table;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    color: black;
+    width: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+nav a:hover {
+    color: #FFFF;
+    background-color: #58978A;
+}
+
+#box{
+    background-image: url(luca-bravo-XJXWbfSo2f0-.jpg);
+    color: #FFFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+selection {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    flex: 2;
+}
+
+#box2{
+    color: #FFFF;
+    background-color: #58978A;
+    margin: 100px;
+    padding: 50px;
+}
+#box3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#circule{
+    background-image: url(pankaj-patel-kNfP4Z2eq7w-.jpg );
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    padding: 200px;
+    border-radius: 1000px;
+}
+#box4{
+    background-image: url(Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300;
+    display: flex;
+}
+.textq{
+    float: right;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    padding: 40px;
+}
+
+footer div {
+    flex: 1;
+}
+.imf{
+
+    display: flex;
+}
+
